@@ -1,0 +1,7 @@
+a= ['1221', '3643', 'apple']
+count = 0
+for x in a:
+  if len(x) > 0 and x[0] == x[-1]:
+    count += 1
+       print(x)
+print("Number of strings with the same first and last character:", count)
